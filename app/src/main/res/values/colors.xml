@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#6200EE</color>
+    <color name="colorPrimaryDark">#3700B3</color>
+    <color name="colorAccent">#03DAC5</color>
+
+<!--    Bottom navigation text color-->
+    <color name="colorWhite">#FFFF</color>
+
+    <color name="colorBlack">#000000</color>
+
+    <color name="newsCartBackground">#ddd</color>
+
+<!--    Bottom Sheet-->
+    <color name="colorTextPrimary">#ffffff</color>
+    <color name="colorTextSecondary">#000000</color>
+    <color name="cardBackground">#ddd</color>
+    <color name="recyclerViewDivider">@color/colorPrimary</color>
+    <color name="gradient_start">#7f000000</color>
+    <color name="gradient_end">#00000000</color>
+
+</resources>

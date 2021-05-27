@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="rv_horizontal_offset">12dp</dimen>
+    <dimen name="rv_vertical_offset">12dp</dimen>
+
+    <dimen name="image_WH">82dp</dimen>
+</resources>

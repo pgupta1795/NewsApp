@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:background="?selectableItemBackground"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:paddingStart="@dimen/rv_horizontal_offset"
+    android:paddingTop="@dimen/rv_vertical_offset"
+    android:paddingEnd="@dimen/rv_horizontal_offset"
+    android:paddingBottom="@dimen/rv_vertical_offset"
+    tools:context=".MainActivity">
+
+    <ImageView
+        android:id="@+id/newsimage"
+        android:layout_width="@dimen/image_WH"
+        android:layout_height="@dimen/image_WH"
+        android:contentDescription="@string/image_desc"
+        android:src="@color/newsCartBackground"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/newstitle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="8dp"
+        app:layout_constrainedWidth="true"
+        android:minLines="3"
+        android:maxLines="3"
+        android:textAppearance="@style/AppTheme.Headline.Title"
+        android:textColor="@color/colorBlack"
+        android:textSize="14sp"
+        app:layout_constraintEnd_toStartOf="@id/newsoptions"
+        app:layout_constraintStart_toEndOf="@id/newsimage"
+        app:layout_constraintTop_toTopOf="@id/newsimage"
+        tools:text="@string/sample_title_long" />
+
+    <TextView
+        android:id="@+id/newssource"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:textColor="@color/colorBlack"
+        android:textSize="14sp"
+        app:layout_constraintStart_toStartOf="@id/newstitle"
+        app:layout_constraintTop_toBottomOf="@id/newstitle"
+        tools:text="@string/sample_source" />
+
+    <ImageButton
+        android:id="@+id/newsoptions"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="?selectableItemBackgroundBorderless"
+        android:contentDescription="@string/image_desc"
+        android:padding="4dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="@id/newstitle"
+        app:srcCompat="@drawable/ic_options" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

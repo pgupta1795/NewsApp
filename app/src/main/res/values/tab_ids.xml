@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <item name="GENERAL" type="id"/>
+    <item name="BUSINESS" type="id"/>
+    <item name="ENTERTAINMENT" type="id"/>
+    <item name="HEALTH" type="id"/>
+    <item name="SCIENCE" type="id"/>
+    <item name="SPORTS" type="id"/>
+    <item name="TECHNOLOGY" type="id"/>
+</resources>
